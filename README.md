@@ -26,7 +26,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 # Project overview
 
-Creating Kanban view clone with the following features:
+Creating Kanban view clone with the following features
 
 ## Create tasks
 
