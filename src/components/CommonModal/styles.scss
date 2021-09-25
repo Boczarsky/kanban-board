@@ -1,0 +1,20 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.616);
+  box-shadow: 0 8px 32px 0 rgba(70, 70, 70, 0.37);
+  backdrop-filter: blur( 3px );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #ffffff;
+  box-shadow: 0 8px 32px 0 rgba(70, 70, 70, 0.37);
+  border-radius: .5rem;
+  padding: 1rem;
+}

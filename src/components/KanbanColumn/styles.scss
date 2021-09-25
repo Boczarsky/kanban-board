@@ -1,0 +1,31 @@
+.kanban-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks-container {
+  flex: 1;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba(70, 70, 70, 0.37);
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: .5rem;
+}
+
+.column-title {
+  background: #ffff;
+  box-shadow: 0 8px 32px 0 rgba(70, 70, 70, 0.37);
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 20px;
+  border-right: 1rem solid;
+  border-left: 1rem solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

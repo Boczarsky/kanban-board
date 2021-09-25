@@ -1,0 +1,33 @@
+.kanban-board {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding: 2rem;
+  flex: 1;
+}
+
+.local-storage-save-control {
+  margin: 1rem 0 0 2rem;
+  background: #ffffff;
+  width: fit-content;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  border-radius: .5rem;
+
+  label {
+    font-weight: bold;
+  }
+  input {
+    margin: 0;
+    width: 1rem;
+    height: 1rem;
+  }
+}
