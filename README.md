@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Env
 
-NPM v6.14.10
-Node v12.20.1
+- NPM v6.14.10
+- Node v12.20.1
 
 ## Available Scripts
 
